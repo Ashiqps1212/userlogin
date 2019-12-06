@@ -1,0 +1,17 @@
+
+
+<form [formGroup]="homepage" class="home">
+        <a class="btn-danger btnconfig log" [routerLink]="['/login']">Logout</a>
+       <div class="form-group">
+            <h2>Welcome to Simple Login</h2>
+            <h4>USER DATA</h4>
+            <div class="options">
+                <a [routerLink]="['/add-data']" class="btn btn-outline-success btnconfig">Insert Data</a>
+                <a [routerLink]="['']" class="btn btn-outline-success btnconfig">View Data</a>
+                <a [routerLink]="['']" class="btn btn-outline-success btnconfig">Update Data</a>
+                <a [routerLink]="['']" class="btn btn-outline-success btnconfig">delete User</a>
+            </div>
+
+       </div>
+    
+</form>

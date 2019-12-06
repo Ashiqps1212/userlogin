@@ -1,0 +1,21 @@
+.registerForm{
+    width:50%;
+    border: 2px solid black;
+    margin-top:150px;
+    margin-left:25%;
+    padding:20px 4%;
+}
+.textarea{
+    width:60%;
+    height:28px;
+    font-size:22px;
+}
+h2{
+    font-size:36px;
+    text-align: center;
+    color:red;
+}
+.btns{
+margin-left:20%;
+padding:2%;
+}
